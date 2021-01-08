@@ -1,0 +1,139 @@
+.skb-banner-section{
+    background-color: rgba(46,5,233,1);
+}
+.skb-banner-contents h2 {
+    color: #fff;
+    font-size: 64px;
+    padding-top: 30px;
+        font-weight: 300;
+    line-height: 1.4em;
+}
+.skb-banner-contents p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.4em;
+    padding: 0 255px;
+    margin-top: 20px;
+}
+a.join-now {
+    display: inline-block;
+    background: #34D1B6;
+    color: #fff;
+    padding: 7px 50px;
+    border-radius: 50px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+.banner-left-icons {
+    position: relative;
+}
+
+.banner-left-icons ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-left-icons ul li {
+    list-style: none;
+    position: absolute;
+    font-size: 19px;
+}
+.banner-left-icons {
+    position: relative;
+}
+
+
+li.skb-heart {
+    color: #C1B4F8;
+    right: 30px;
+}
+
+li.skb-envelope {
+    top: 143px;
+    left: 40px;
+    color: #EBE6FD;
+}
+li.skb-bell {
+    right: 115px;
+    top: 157px;
+    color: #8269F2;
+}
+li.skb-star {
+    right: 31px;
+    top: 250px;
+    color: #EBE6FD;
+}
+li.skb-phone {
+    top: 300px;
+    left: 110px;
+    color: #EBE6FD;
+}
+li.skb-map {
+    right: 90px;
+    top: 380px;
+    color: #6D50F0;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-img img {
+    margin-bottom: -50px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.banner-right-icons{}
+.banner-right-icons ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.banner-right-icons ul li{
+    list-style: none;
+    position: absolute;
+    font-size: 19px;
+        color: #EBE6FD;
+
+}
+
+.skb-announce {
+    left: 70px;
+}
+.skb-user {
+    left: 200px;
+    top: 60px;
+    color: #fff!important;
+}
+.skb-rocket {
+    top: 136px;
+    left: 24px;
+}
+.skb-bolt {
+    right: 36px;
+    top: 165px;
+}
+.skb-share {
+    top: 270px;
+    right: 100px;
+}
+.skb-comment {
+    top: 346px;
+    left: 80px;
+}
+.skb-credit {
+    top: 478px;
+    right: 126px;
+}
+.skb-bells {
+    top: 510px;
+    left: 30px;
+}
+
+section.how-it-works {
+    padding: 120px 0;
+}
