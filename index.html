@@ -3,17 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Select Collect</title>
     <link rel="stylesheet" href="assets/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/lightbox.css">
+    <link rel="stylesheet" href="assets/venobox.css">
     <link rel="stylesheet" href="assets/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="assets/animate.min.css">
+    <link rel="stylesheet" href="assets/wow.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    
-    <main>
 
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg sc-menu">
+                        <a class="navbar-brand logo" href="#">SC</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+                          menu
+                        </button>
+                        <div class="collapse navbar-collapse" id="main_nav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"> <a class="nav-link" href="#">Join Discord </a> </li>
+                                <li class="nav-item"><a class="nav-link" href="#how-it-wroks"> How it works </a></li>
+                                <li class="nav-item"><a class="nav-link" href="#about"> About </a></li>          
+                                <li class="nav-item"><a class="nav-link" href="#reviews"> Reviews </a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">More</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#buy-now"> Buy Now</a></li>
+                                        <li><a class="dropdown-item" href="#"> Shop </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div> <!-- navbar-collapse.// -->
+
+                        <!----humberg menu start-->
+                        <div class="sc-humberg-menu">
+                            <div id="toggle"><span></span></div>
+                            <div id="menu"><span id="title">Menu</span>
+                              <ul>
+                                <li><a class="special_class" href="#"><span>Join Discord</span></a></li>
+                                <li><a class="special_class" href="#how-it-wroks"><span>How it works</span></a></li>
+                                <li><a class="special_class" href="#about"><span>About</span></a></li>
+                                <li><a class="special_class" href="#reviews"><span>Reviews</span></a></li>
+                                <li><a class="special_class" href="#buy-now"><span>Buy Now</span></a></li>
+                                <li><a special_class href="http://www.google.com"><span>Shop</span></a></li>
+                              </ul>
+                            </div>
+                        </div>
+                   
+                        <!----humberg menu end-->
+
+                      </nav>
+    
+                </div>
+
+            </div> <!----row end-->
+
+            <div class="mini-cart">
+                <p>1</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
         <!--- Banner section start--->
         <section class="skb-banner-section">
             <div class="container">
@@ -26,7 +80,7 @@
 
             <div class="container">
                 <div class="row ss">
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <div class="banner-left-icons">
                             <ul>
                                 <li class="skb-heart animate__animated animate__fadeIn animate__delay-2s"><i class="fas fa-heart"></i></li>
@@ -43,12 +97,24 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 dd">
-                        <div class="banner-img">
-                            <img class="animate__animated animate__fadeIn" src="assets/banner.webp" alt="">
+                    <div class="col-lg-4 dd">
+
+                        <div class="banner-img-box">
+                            <div class="top-hr-line">
+                                
+                            </div>
+                            <div class="banner-img">
+                                <img src="assets/banner.webp" alt="">
+                            </div>
+                            <div class="bottom-circle">
+                                
+                            </div>
                         </div>
+
+
+
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <div class="banner-right-icons">
                             <ul>
                                 <li class="skb-announce animate__animated animate__fadeIn animate__delay-2s"><i class="fas fa-bullhorn"></i></li>
@@ -75,7 +141,7 @@
 
 
         <!------ How it works section start ----->
-        <section class="how-it-works">
+        <section class="how-it-works" id="how-it-wroks">
             <div class="container">
                 <h2 class="hiw-header">How it works.</h2>
                 <div class="vertical-line"></div>
@@ -85,7 +151,7 @@
                 <div class="row skb-space">
                     <div class="col-md-6">
                         <div class="works-iamge">
-                            <h3 class="work-left-counter animate__animated animate__fadeIn animate__delay-6s">01</h3>
+                            <h3 class="work-left-counter  wow fadeIn" data-wow-delay="0.6s" data-wow-duration="1s">01</h3>
                             <img src="assets/select.png" alt="">
                             
                         </div>
@@ -102,15 +168,15 @@
 
                 <div class="row skb-space">
                     <div class="col-md-6">
-                        <div class="works-content">
+                        <div class="works-content works-right-conttent">
                             <h4>Recieve and Review</h4>
                             <p>Receive your item within a few business days and leave your feedback on the product.</p>
                          </div>
                     </div>
 
                     <div class="col-md-6">
-                        <div class="works-iamge">
-                            <h3 class="work-right-counter">02</h3>
+                        <div class="works-iamge work-right-img">
+                            <h3 class="work-right-counter  wow fadeIn" data-wow-delay="0.6s" data-wow-duration="1s" >02</h3>
                             <img src="assets/gift-box.png" alt="">
                             
                         </div>
@@ -122,7 +188,7 @@
                 <div class="row skb-space">
                     <div class="col-md-6">
                         <div class="works-iamge">
-                            <h3 class="work-left-counter">03</h3>
+                            <h3 class="work-left-counter  wow fadeIn" data-wow-delay="0.6s" data-wow-duration="1s">03</h3>
                             <img src="assets/money.png" alt="">
                             
                         </div>
@@ -140,7 +206,7 @@
         <!------ How it works section end ----->
 
         <!-----== Connection section start =-->
-        <section class="connections-section">
+        <section class="connections-section" id="about">
             <div class="container">
                  <h2 class="connection-header">How is this possible?</h2>
             </div>
@@ -149,7 +215,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="connection-container">
-                            <h2>Connections</h2>
+                            <h2 class="wow fadeIn" data-wow-delay="1.5s" data-wow-duration="1.5s">Connections</h2>
 
                         </div>
                         <div class="connection-content">
@@ -163,40 +229,40 @@
         <!-----== Connection section end =-->
 
         <!----- Review sectiion start---->
-        <section class="review-section">
+        <section class="review-section" id="reviews">
             <div class="container">
                 <h2 class="connection-header">Reviews</h2>
            </div>
 
            <div class="review-container">
-                <div class="review-image">
-                <a href="assets/review-1.webp" data-lightbox="review-data">
+                <div class="review-image wow slideInLeft">
+                    <a class="venobox" href="assets/review-1.webp" data-gall="myGallery">
                     <img src="assets/review-1.webp" alt="">
                     </a>
                 </div>
         
-                <div class="review-image">
-                <a href="assets/review-2.webp" data-lightbox="review-data">
+                <div class="review-image wow slideInLeft">
+                     <a class="venobox" href="assets/review-2.webp" data-gall="myGallery">
                     <img src="assets/review-2.webp" alt="">
                     </a>
                 </div>
-                <div class="review-image">
-                <a href="assets/review-3.webp" data-lightbox="review-data">
+                <div class="review-image wow slideInLeft">
+                    <a class="venobox" href="assets/review-3.webp" data-gall="myGallery">
                     <img src="assets/review-3.webp" alt="">
                     </a>
                 </div>
-                <div class="review-image">
-                <a href="assets/review-4.webp" data-lightbox="review-data">
+                <div class="review-image wow slideInLeft">
+                    <a class="venobox" href="assets/review-4.webp" data-gall="myGallery">
                     <img src="assets/review-4.webp" alt="">
                     </a>
                 </div>
-                <div class="review-image">
-                <a href="assets/review-5.webp" data-lightbox="review-data">
+                <div class="review-image wow slideInLeft">
+                    <a class="venobox" href="assets/review-5.webp" data-gall="myGallery">
                     <img src="assets/review-5.webp" alt="">
                     </a>
                 </div>
-                <div class="review-image">
-                    <a href="assets/review-1.webp" data-lightbox="review-data">
+                <div class="review-image wow slideInLeft">
+                    <a class="venobox" href="assets/review-1.webp" data-gall="myGallery">
                         <img src="assets/review-1.webp" alt="">
                     </a>
                 </div>
@@ -205,7 +271,7 @@
         <!----- Review section end---->
 
         <!---- product sohwcase start---->
-        <section class="product-showcase">
+        <section class="product-showcase" id="buy-now">
             <div class="showcase-container">
                 <div class="row">
                     <div class="col-md-7">
@@ -283,9 +349,10 @@
                     </div>
                     <div class="col-6">
                         <div class="scrol-to-top">
-                            <a href="#">
-                                <img src="assets/scroll-top2.png" alt="">
-                            </a>
+
+                          <a id="back-to-top" href="#" class="btn back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+                          
+                 
                         </div>
                     </div>
                 </div> <!----row end-->
@@ -307,11 +374,24 @@
             </div>
     </footer>
 
+
+    <section class="join-now-popup">
+       
+            <div class="sc-popup-content">
+                <div class="popup-close">&times;</div>
+                <h2>Join our free discord server </h2>
+                <a href="#">Join Now</a>
+          
+              </div>
+    </section>
+
+
+
     <script src="assets/jquery-3.2.1.min.js"></script>
     <script src="assets/popper.min.js"></script>
     <script src="assets/bootstrap.min.js"></script>
-    <script src="assets/lightbox.js"></script>
-
+    <script src="assets/venobox.min.js"></script>
+    <script src="assets/wow.min.js"></script>
     <script src="assets/custom.js"></script>
 </body>
 </html>
